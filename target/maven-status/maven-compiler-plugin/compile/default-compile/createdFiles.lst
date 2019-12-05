@@ -1,0 +1,16 @@
+hibernate\Printer.class
+mail\SendEmailComponent.class
+hibernate\Employees.class
+hibernate\HibernateConfig.class
+scope\ScopeExample.class
+mail\SendEmailComponent$1.class
+hibernate\Cars.class
+hibernate\Phones.class
+hibernate\HibernateEntity.class
+hibernate\MainHibernate.class
+database\TransactionsSQL.class
+database\SQLConnection.class
+employees\Emp.class
+database\CRUDStatementSQL.class
+scope\MainScope.class
+hibernate\HibernateDao.class
