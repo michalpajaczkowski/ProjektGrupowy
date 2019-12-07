@@ -1,19 +1,19 @@
-C:\ProgramowanieJava\Projekt grupowy_employeeDB\src\main\java\hibernate\Printer.java
-C:\ProgramowanieJava\Projekt grupowy_employeeDB\src\main\java\database\Main.java
-C:\ProgramowanieJava\Projekt grupowy_employeeDB\src\main\java\database\SQLConnection.java
-C:\ProgramowanieJava\Projekt grupowy_employeeDB\src\main\java\hibernate\HibernateEntity.java
-C:\ProgramowanieJava\Projekt grupowy_employeeDB\src\main\java\scope\ScopeExample.java
-C:\ProgramowanieJava\Projekt grupowy_employeeDB\src\main\java\database\CRUDStatementSQL.java
-C:\ProgramowanieJava\Projekt grupowy_employeeDB\src\main\java\hibernate\HibernateDao.java
-C:\ProgramowanieJava\Projekt grupowy_employeeDB\src\main\java\database\TransactionsSQL.java
-C:\ProgramowanieJava\Projekt grupowy_employeeDB\src\main\java\hibernate\HibernateConfig.java
-C:\ProgramowanieJava\Projekt grupowy_employeeDB\src\main\java\employees\Emp.java
-C:\ProgramowanieJava\Projekt grupowy_employeeDB\src\main\java\hibernate\Phones.java
-C:\ProgramowanieJava\Projekt grupowy_employeeDB\src\main\java\hibernate\MainHibernate.java
-C:\ProgramowanieJava\Projekt grupowy_employeeDB\src\main\java\hibernate\Employees.java
-C:\ProgramowanieJava\Projekt grupowy_employeeDB\src\main\java\hibernate\Cars.java
-C:\ProgramowanieJava\Projekt grupowy_employeeDB\src\main\java\mail\SendEmailComponent.java
-C:\ProgramowanieJava\Projekt grupowy_employeeDB\src\main\java\hibernate\SupplyDatabase.java
-C:\ProgramowanieJava\Projekt grupowy_employeeDB\src\main\java\employees\EmpController.java
-C:\ProgramowanieJava\Projekt grupowy_employeeDB\src\main\java\mail\SendEmail.java
-C:\ProgramowanieJava\Projekt grupowy_employeeDB\src\main\java\scope\MainScope.java
+C:\Users\micha\IdeaProjects\ProjektGrupowy\src\main\java\hibernate\Printer.java
+C:\Users\micha\IdeaProjects\ProjektGrupowy\src\main\java\mail\SendEmailComponent.java
+C:\Users\micha\IdeaProjects\ProjektGrupowy\src\main\java\hibernate\Cars.java
+C:\Users\micha\IdeaProjects\ProjektGrupowy\src\main\java\hibernate\HibernateDao.java
+C:\Users\micha\IdeaProjects\ProjektGrupowy\src\main\java\mail\SendEmail.java
+C:\Users\micha\IdeaProjects\ProjektGrupowy\src\main\java\hibernate\HibernateConfig.java
+C:\Users\micha\IdeaProjects\ProjektGrupowy\src\main\java\hibernate\SupplyDatabase.java
+C:\Users\micha\IdeaProjects\ProjektGrupowy\src\main\java\database\SQLConnection.java
+C:\Users\micha\IdeaProjects\ProjektGrupowy\src\main\java\hibernate\Employees.java
+C:\Users\micha\IdeaProjects\ProjektGrupowy\src\main\java\scope\MainScope.java
+C:\Users\micha\IdeaProjects\ProjektGrupowy\src\main\java\database\CRUDStatementSQL.java
+C:\Users\micha\IdeaProjects\ProjektGrupowy\src\main\java\hibernate\Phones.java
+C:\Users\micha\IdeaProjects\ProjektGrupowy\src\main\java\employees\EmpController.java
+C:\Users\micha\IdeaProjects\ProjektGrupowy\src\main\java\employees\Emp.java
+C:\Users\micha\IdeaProjects\ProjektGrupowy\src\main\java\database\Main.java
+C:\Users\micha\IdeaProjects\ProjektGrupowy\src\main\java\hibernate\MainHibernate.java
+C:\Users\micha\IdeaProjects\ProjektGrupowy\src\main\java\hibernate\HibernateEntity.java
+C:\Users\micha\IdeaProjects\ProjektGrupowy\src\main\java\database\TransactionsSQL.java
+C:\Users\micha\IdeaProjects\ProjektGrupowy\src\main\java\scope\ScopeExample.java
