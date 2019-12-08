@@ -8,7 +8,7 @@ import java.util.Set;
 public class MainHibernate {
     public static void main(String[] args) {
         HibernateDao employeeDao = new HibernateDao();
-        Employees employee = new Employees("Test", "Test", "Test", "Test", 1000, 18 , new Date(), 1);
+        Employees employee = new Employees("Test", "Test", "Test", "Test", 1000, 18, new Date(), 1);
         employeeDao.saveHibernateEntity(employee);
         List<Employees> employeesList = employeeDao.getEmployees();
 
@@ -27,7 +27,7 @@ public class MainHibernate {
         employeeDao.updateHibernateEntity(employee);
 
         HibernateDao carsDao = new HibernateDao();
-        Cars cars = new Cars("Audi","Q7",employee );
+        Cars cars = new Cars("Audi", "Q7", new Date(), employee);
         carsDao.saveHibernateEntity(cars);
         Set<Cars> carsList = new HashSet<>();
         carsList.add(cars);
@@ -35,13 +35,12 @@ public class MainHibernate {
         employeeDao.updateHibernateEntity(employee);
 
         HibernateDao printerDao = new HibernateDao();
-        Printer printer = new Printer("Xerox","sf99",employee);
+        Printer printer = new Printer("sf99", "Xerox", true, "warszawa", employee);
         printerDao.saveHibernateEntity(printer);
         Set<Printer> printerList = new HashSet<>();
         printerList.add(printer);
         employee.setPrinters(printerList);
         employeeDao.updateHibernateEntity(employee);
-
 
 
     }

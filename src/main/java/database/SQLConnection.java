@@ -9,7 +9,7 @@ public class SQLConnection {
 
     public Connection connectionToSQLServer() {
 
-        String url = "jdbc:sqlserver://localhost\\SQLEXPRESS;databaseName=master;integratedSecurity=true;";
+        String url = "jdbc:sqlserver://localhost\\SQLEXPRESS;databaseName=CONNECTIS;integratedSecurity=true;";
 
         try {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");

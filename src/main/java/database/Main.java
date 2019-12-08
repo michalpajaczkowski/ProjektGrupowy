@@ -28,30 +28,29 @@ public class Main {
         String insertQuery = "Insert INTO Employees (LastName, FirstName, Address, City, Salary, Age, StartJobDate, Benefit) VALUES (?, ?, ?, ?, ?, ?, ?, ?)";
         String updateQuery = "UPDATE Employees SET LastName=?, FirstName=?, Address=?, City=?, Salary=?, Age=?, StartJobDate=?, Benefit=? WHERE ID=?";
 
-   //     crudStatementSQL.selectSQLbyJDBC(tableName);
+        //     crudStatementSQL.selectSQLbyJDBC(tableName);
 
         List<String> columnNames = new ArrayList<>();
         columnNames.add("FirstName");
         columnNames.add("LastName");
 
-      //  crudStatementSQL.selectSQLbyJDBC(columnNames, tableName);
+        //  crudStatementSQL.selectSQLbyJDBC(columnNames, tableName);
 
 
         TransactionsSQL.transactions(connection, crudStatementSQL.insertSQLbyJDBC(insertQuery));
 //        TransactionsSQL.transactions(connection, crudStatementSQL.updateSQLbyJDBC(updateQuery));
-    //    TransactionsSQL.transactions(connection,  crudStatementSQL.deleteSQLbyID(8));
-
+        //    TransactionsSQL.transactions(connection,  crudStatementSQL.deleteSQLbyID(8));
 
 
         Map<String, String> updateValues = new HashMap<>();
-        updateValues.put("LastName","Jasiek");
-        updateValues.put("Age","15");
+        updateValues.put("LastName", "Jasiek");
+        updateValues.put("Age", "15");
 
 
         TransactionsSQL.transactions(connection, crudStatementSQL.updateSQLbyJDBC(updateValues, tableName, "where LastName = 'koro'"));
         //TransactionsSQL.transactions(connection, crudStatementSQL.updateSQLbyJDBC(updateValues, tableName, "where LastName = 'asd' or 1 = 1"));
 
-       //   TransactionsSQL.transactions(connection, crudStatementSQL.deleteSQLbyID(tableName, "id","2"));
+        //   TransactionsSQL.transactions(connection, crudStatementSQL.deleteSQLbyID(tableName, "id","2"));
 
 
     }

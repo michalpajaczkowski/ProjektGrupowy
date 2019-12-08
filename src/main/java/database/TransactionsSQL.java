@@ -33,7 +33,7 @@ public class TransactionsSQL {
     }
 
     public static void transactions(Connection conn, String query) {
-        if(query == null)
+        if (query == null)
             return;
 
         try {

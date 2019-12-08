@@ -86,7 +86,7 @@ public class CRUDStatementSQL {
 
     public String updateSQLbyJDBC(Map<String, String> updateQuery, String tableName, String whereCondition) {
 
-        if(checkWhereCondition(whereCondition)) {
+        if (checkWhereCondition(whereCondition)) {
             System.out.println("Błędne zapytanie");
             return null;
         }
@@ -114,7 +114,7 @@ public class CRUDStatementSQL {
 
     public String deleteSQLbyID(String tableName, String columnName, String value) {
 
-        if(checkWhereCondition(value)) {
+        if (checkWhereCondition(value)) {
             System.out.println("Błędne zapytanie");
             return null;
         }
